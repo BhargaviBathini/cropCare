@@ -1,0 +1,109 @@
+{
+  "disease_recommendations": {
+    "healthy": {
+      "fertilizer": "No treatment needed.",
+      "water": "Maintain regular watering.",
+      "soil": "Keep soil nutrient-rich and balanced."
+    },
+    "Rust disease": {
+      "fertilizer": "Use sulfur-based fungicides.",
+      "water": "Avoid overhead irrigation.",
+      "soil": "Improve drainage and remove infected leaves."
+    },
+    "powdery mildew": {
+      "fertilizer": "Apply potassium bicarbonate spray.",
+      "water": "Reduce humidity around plants.",
+      "soil": "Increase air circulation by proper spacing."
+    },
+    "mosaic virus": {
+      "fertilizer": "Apply boron and zinc-enriched fertilizers.",
+      "water": "Maintain consistent soil moisture.",
+      "soil": "Use virus-free seeds and remove infected plants immediately."
+    },
+    "bacterial blight": {
+      "fertilizer": "Use copper-based fungicides.",
+      "water": "Avoid splashing water on leaves.",
+      "soil": "Crop rotation and resistant varieties help prevent infection."
+    },
+    "leaf curl virus": {
+      "fertilizer": "Apply micronutrient sprays containing zinc and iron.",
+      "water": "Water regularly but avoid drought stress.",
+      "soil": "Use disease-free soil and maintain proper nutrition."
+    },
+    "yellow leaf": {
+      "fertilizer": "Use nitrogen-rich fertilizers like Urea (50g per plant).",
+      "water": "Water regularly but avoid overwatering.",
+      "soil": "Use organic compost to improve soil health."
+    },
+    "anthracnose": {
+      "fertilizer": "Use balanced NPK fertilizers and organic compost.",
+      "water": "Avoid prolonged leaf wetness; ensure proper drainage.",
+      "soil": "Mulch soil to prevent fungal spore spread."
+    },
+    "wilt disease": {
+      "fertilizer": "Apply compost tea or biofertilizers for soil health.",
+      "water": "Water deeply but infrequently.",
+      "soil": "Use resistant crop varieties and maintain soil fertility."
+    }
+  },
+
+  "soil_recommendations": {
+    
+      "clay": {
+        "Hyderabad": ["rice", "wheat", "soybean"],
+        "Warangal": ["millet", "corn"],
+        "Karimnagar": ["sugarcane", "rice"],
+        "Khammam": ["groundnut", "chickpea"],
+        "Nizamabad": ["turmeric", "maize"],
+        "Mahbubnagar": ["pigeon pea", "cotton"],
+        "Medak": ["paddy", "jowar"],
+        "Nalgonda": ["paddy", "turmeric"],
+        "Suryapet": ["cotton", "maize"],
+        "Yadadri": ["wheat", "pulses"],
+        "Jangaon": ["groundnut", "corn"]
+      },
+      "sandy": {
+        "Hyderabad": ["carrot", "peanut"],
+        "Warangal": ["watermelon", "tomato"],
+        "Karimnagar": ["cucumber", "pumpkin"],
+        "Khammam": ["cashew", "sweet potato"],
+        "Nizamabad": ["sunflower", "sesame"],
+        "Mahbubnagar": ["groundnut", "castor"],
+        "Medak": ["horse gram", "bajra"],
+        "Nalgonda": ["peanuts", "foxtail millet"],
+        "Suryapet": ["castor", "watermelon"],
+        "Yadadri": ["sesame", "jowar"],
+        "Jangaon": ["bajra", "mustard"]
+      },
+      "loamy": {
+        "Hyderabad": ["corn", "tomato"],
+        "Warangal": ["cotton", "soybean"],
+        "Karimnagar": ["banana", "coffee"],
+        "Khammam": ["pulses", "chili"],
+        "Nizamabad": ["wheat", "sugarcane"],
+        "Mahbubnagar": ["black gram", "green gram"],
+        "Medak": ["vegetables", "tobacco"],
+        "Nalgonda": ["paddy", "black gram"],
+        "Suryapet": ["chili", "coriander"],
+        "Yadadri": ["mango", "papaya"],
+        "Jangaon": ["tomato", "brinjal"]
+      },
+      "silt": {
+        "Hyderabad": ["barley", "onion"],
+        "Warangal": ["sugarcane", "rice"],
+        "Karimnagar": ["papaya", "maize"],
+        "Khammam": ["lettuce", "spinach"],
+        "Nizamabad": ["pomegranate", "grapes"],
+        "Mahbubnagar": ["mustard", "sesame"],
+        "Medak": ["fruits", "vegetables"],
+        "Nalgonda": ["sugarcane", "mango"],
+        "Suryapet": ["pomegranate", "ginger"],
+        "Yadadri": ["rice", "corn"],
+        "Jangaon": ["soybean", "onion"]
+      }
+    }
+    
+    
+    
+  }
+

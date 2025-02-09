@@ -1,0 +1,86 @@
+/* Ensure header stays fixed at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps navbar above other elements */
+  }
+  
+  /* Prevent page content from being hidden behind navbar */
+  body {
+    padding-top: 70px; /* Adjust based on navbar height */
+  }
+  
+  /* Navbar items spacing */
+  .navbar-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Language Dropdown Alignment */
+  .dropdown-menu {
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  /* Make header look more modern */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+
+
+/* Navbar styling */
+.navbar {
+  background: rgba(0, 0, 0, 0.8) !important; /* Slight transparency */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00c853 !important; /* Green color for farming theme */
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1rem;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00c853 !important; /* Green hover effect */
+}
+
+/* Dropdown */
+.dropdown-toggle {
+  background: #00c853 !important;
+  border: none;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-item {
+  color: rgb(10, 6, 6) !important;
+}
+
+.dropdown-item:hover {
+  background: #00c853 !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../assets/img.jpg"); /* Set a nice farm background */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* Ensure full page height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

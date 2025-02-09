@@ -1,0 +1,148 @@
+{
+    "languages": {
+        "en": "English",
+        "hi": "हिन्दी",
+        "te": "తెలుగు"
+    },
+    "header": {
+        "cropCare": "Crop Care",
+        "cropHealth": "Crop Health",
+        "cropRecommendation": "Crop Recommendation",
+        "smartRecommendations": "Smart Recommendations",
+        "weather": "Weather",
+        "yieldPrediction":"Yield Prediction "
+       
+    },
+    "cropRecommendation": {
+        "title": "Crop Recommendation",
+        "description": "Select soil type and location to get suitable crop suggestions.",
+        "soilTypeLabel": "Soil Type",
+        "selectSoilType": "Select Soil Type",
+        "locationLabel": "Location",
+        "locationPlaceholder": "Enter your city or region",
+        "submitButton": "Get Recommendations",
+        "recommendedCrops": "Recommended Crops for",
+        "error": "Please select both soil type and location.",
+        "fetchError": "Failed to fetch recommendations.",
+        "soilTypes": {
+            "clay": "Clay",
+            "sandy": "Sandy",
+            "loamy": "Loamy",
+            "silt": "Silt"
+        }
+    },
+    "smartRecommendations": {
+        "title": "Smart Recommendations",
+        "detectedDisease": "Detected Disease",
+        "fertilizer": "Fertilizer",
+        "water": "Water",
+        "soilTreatment": "Soil Treatment",
+        "soilType": "Soil Type",
+        "location": "Location",
+        "recommendedCrops": "Recommended Crops",
+        "fetchError": "❌ Failed to fetch recommendations.",
+        "noCropsFound": "⚠️ No crop recommendations found for this combination."
+    },
+    "weather": {
+        "title": "Weather Updates & Weekly Forecast",
+        "subtitle": "Enter a city name to get real-time weather and a 7-day forecast.",
+        "placeholder": "Enter City",
+        "getWeather": "Get Weather",
+        "humidity": "Humidity",
+        "windSpeed": "Wind Speed",
+       
+        "forecastTitle": "7-Day Climatic Prediction",
+        "noData": "No data available. Try another city."
+    },
+    "cropHealth": {
+        "title": "Crop Health Detection",
+        "subtitle": "Upload an image of your crop to detect diseases and get recommendations.",
+        "selectImage": "Select an Image",
+        "imagePreview": "Image Preview",
+        "analyzeButton": "Analyze Image",
+        "errorMessage": "Error analyzing image. Please try again."
+    },
+    "loading": "Loading recommendations...",
+    "recommendations": {
+        "title": "Crop Recommendations",
+        "disease": "Disease Management",
+        "soil": "Soil-Based Crop Recommendations"
+    },
+    "fertilizer": "Fertilizer",
+    "water": "Watering",
+    "soil": "Soil Improvement",
+    "disease_recommendations": {
+        "healthy": {
+            "fertilizer": "No treatment needed.",
+            "water": "Maintain regular watering.",
+            "soil": "Keep soil nutrient-rich and balanced."
+        },
+        "Rust disease": {
+            "fertilizer": "Use sulfur-based fungicides.",
+            "water": "Avoid overhead irrigation.",
+            "soil": "Improve drainage and remove infected leaves."
+        },
+        "powdery mildew": {
+            "fertilizer": "Apply potassium bicarbonate spray.",
+            "water": "Reduce humidity around plants.",
+            "soil": "Increase air circulation by proper spacing."
+        }
+    },
+    "soil_recommendations": {
+        "Clay": {
+            "Hyderabad": ["Rice", "Wheat", "Soybean"],
+            "Warangal": ["Millet", "Corn"]
+        },
+        "Sandy": {
+            "Hyderabad": ["Carrot", "Peanut"],
+            "Warangal": ["Watermelon", "Tomato"]
+        },
+        
+            "crops": {
+              "rice": "Rice",
+              "wheat": "Wheat",
+              "soybean": "Soybean",
+              "millet": "Millet",
+              "corn": "Corn",
+              "sugarcane": "Sugarcane",
+              "groundnut": "Groundnut",
+              "chickpea": "Chickpea",
+              "turmeric": "Turmeric",
+              "maize": "Maize",
+              "cotton": "Cotton",
+              "paddy": "Paddy",
+              "jowar": "Jowar",
+              "pulses": "Pulses",
+              "carrot": "Carrot",
+              "peanut": "Peanut",
+              "watermelon": "Watermelon",
+              "tomato": "Tomato",
+              "cucumber": "Cucumber",
+              "pumpkin": "Pumpkin"
+            }
+          
+          
+    },
+    
+        "yield": {
+            "title": "Crop Yield Prediction",
+            "rainfall": "Rainfall (mm)",
+            "rainfallPlaceholder": "Enter rainfall amount",
+            "temperature": "Temperature (°C)",
+            "temperaturePlaceholder": "Enter temperature",
+            "soilType": "Soil Type",
+            "selectSoilType": "Select soil type",
+            "area": "Land Area (in acres)",
+            "areaPlaceholder": "Enter land size",
+            "predictButton": "Predict Yield",
+            "error": "Please enter all fields.",
+            "predictionResult": "Predicted Yield: {{prediction}} tons",
+            "soilTypes": {
+                "clay": "Clay",
+                "sandy": "Sandy",
+                "loamy": "Loamy"
+            }
+        }
+    
+    
+}

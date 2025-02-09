@@ -1,0 +1,68 @@
+/* Center everything properly */
+.yield-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../assets/background.jpg") no-repeat center center/cover;
+  }
+  
+  /* Make the card compact and visually appealing */
+  .yield-card {
+    width: 28rem;  /* Reduce card width */
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-top: 5px solid #2e7d32;
+  }
+  
+  /* Title styling */
+  .yield-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .yield-title::before {
+    content: "🌾"; 
+    font-size: 24px;
+  }
+  
+  /* Fix input fields */
+  .yield-card .form-control {
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Remove number stepper from inputs */
+  .yield-card input[type="number"]::-webkit-inner-spin-button,
+  .yield-card input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Improve button */
+  .predict-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #388e3c;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .predict-btn:hover {
+    background-color: #2e7d32;
+  }
+  
